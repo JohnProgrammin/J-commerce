@@ -180,12 +180,12 @@
         }
 
         checkoutButton.addEventListener('click', () => {
-            alert('Proceeding to checkout! Please wait...');
+            alert('My checkout is under construction...');
         });
 
         function showNotification(message) {
             const notification = document.createElement('div');
-            notification.className = 'fixed bottom-4 right-4 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg';
+            notification.className = 'fixed bottom-4 left-4 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg';
             notification.textContent = message;
             document.body.appendChild(notification);
             
